@@ -1,0 +1,19 @@
+# .gitignore file for Digital Signing System
+
+*.sig
+*.multisig
+*.encrypted
+*.decrypted
+*.txt
+*.docx
+*.pdf
+
+# Python cache files
+/__pycache__/
+/key_directory/
+
+# Log files
+/audit_trail.json
+*.json
+*.enc
+*.pem
